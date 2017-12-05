@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Anton';
+  font-weight: 400;
+  src: url("../fonts/Anton/Anton.ttf") format("opentype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf") format("opentype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("opentype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  src: url("../fonts/OpenSans/OpenSans-Semibold.ttf") format("opentype"); }
+
+/*# sourceMappingURL=fonts.css.map */

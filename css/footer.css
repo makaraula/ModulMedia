@@ -1,0 +1,76 @@
+.ftop {
+  background: #2b2b2b;
+  padding: 80px 0;
+  position: relative;
+  z-index: 11; }
+  .ftop .flinks {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 65px;
+    padding: 0; }
+    .ftop .flinks li {
+      display: inline-block;
+      float: none;
+      margin: 0 30px; }
+      .ftop .flinks li a {
+        color: #fff;
+        font-size: 18px;
+        line-height: 18px;
+        font-family: "Anton", sans-serif;
+        font-weight: 400; }
+  .ftop .finfo {
+    text-align: center; }
+    .ftop .finfo p {
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0; }
+    .ftop .finfo p, .ftop .finfo a {
+      color: #fff; }
+
+.footer {
+  padding: 25px 0;
+  background: #333;
+  font-weight: 400;
+  color: #fff;
+  text-align: center; }
+  .footer .copy {
+    font-size: 11px;
+    line-height: 11px; }
+
+.cookie-container {
+  background: rgba(22, 22, 22, 0.9);
+  bottom: 0;
+  display: block;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  color: #fff; }
+  .cookie-container p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+    float: left;
+    width: 85%;
+    font-weight: 400; }
+  .cookie-container a {
+    color: #d67a1e; }
+  .cookie-container a:hover {
+    color: #fff !important; }
+  .cookie-container a.wbtn {
+    float: right;
+    width: auto;
+    margin-left: 20px;
+    padding: 8px 15px;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600; }
+  .cookie-container a.wbtn:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff; }
+
+/*# sourceMappingURL=footer.css.map */

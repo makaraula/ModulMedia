@@ -1,0 +1,99 @@
+$font-stack: 'Anton', sans-serif;
+$primary-color: #fff;
+$text-align: center;
+$font-weight: 400;
+.ftop {
+    background: #2b2b2b;
+    padding: 80px 0;
+    position: relative;
+    z-index: 11;
+
+    .flinks {
+        list-style: none;
+        text-align: $text-align;
+        margin-bottom: 65px;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            float: none;
+            margin: 0 30px;
+
+            a {
+                color: $primary-color;
+                font-size: 18px;
+                line-height: 18px;
+                font-family: $font-stack;
+                font-weight: $font-weight;
+            }
+        }
+    }
+    .finfo {
+        text-align: $text-align;
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            margin: 0;
+        }
+        p, a {
+            color: $primary-color;
+        }
+    }
+}
+
+.footer {
+    padding: 25px 0;
+    background: #333;
+    font-weight: $font-weight;
+    color: $primary-color;
+    text-align: $text-align;
+
+    .copy {
+        font-size: 11px;
+        line-height: 11px;
+    }
+}
+
+.cookie-container {
+    background: rgba(22, 22, 22, 0.9);
+    bottom: 0;
+    display: block;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    color: $primary-color;
+
+    p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 20px;
+        float: left;
+        width: 85%;
+        font-weight: $font-weight;
+    }
+    a {
+        color: #d67a1e;
+    }
+    a:hover {
+        color: $primary-color !important;
+    }
+    a.wbtn {
+        float: right;
+        width: auto;
+        margin-left: 20px;
+        padding: 8px 15px;
+        background: $primary-color;
+        border: 2px solid $primary-color;
+        color: #333;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+    a.wbtn:hover {
+        background: transparent;
+        border: 2px solid $primary-color;
+        color: $primary-color;
+    }
+}

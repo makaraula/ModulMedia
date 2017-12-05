@@ -17,8 +17,7 @@
   <link href="../js/bxslider/jquery.bxslider.css" rel="stylesheet" />
   <link rel="stylesheet" href="../js/magnific-popup/magnific-popup.css">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-  <link href="../css/normalise.css" rel="stylesheet" type="text/css" />
-  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/style-min.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
@@ -30,7 +29,7 @@
       <div class="header fw">
 
         <div class="logo">
-          <a href="<?php echo _SITE_URL; ?>"><img src="../images/mm-logo.svg" alt="" /></a>
+          <a href="home.php"><img src="../images/mm-logo.svg" alt="" /></a>
         </div><!-- end .logo -->
 
         <div class="izbornik fw">
